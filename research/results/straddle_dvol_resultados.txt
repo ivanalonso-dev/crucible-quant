@@ -1,0 +1,25 @@
+Ejecutado: 2026-09-30 12:04
+
+Rentabilidad = sobre la prima pagada por straddle. IV media = DVOL medio al comprar.
+
+
+==================== BTC ====================
+prueba                              ops    ganad.     medio             IC 95 %    2021-24   2025-hoy      IV
+CON alerta | VENCIMIENTO             66       32%    -11.3%   [ -33.1,  +14.5]     -21.7%     +16.3%      61
+sin alerta | VENCIMIENTO           2009       28%    -18.5%   [ -22.1,  -15.0]     -19.2%     -16.9%      59
+CON alerta | TOCA ±8 %               66       45%    -14.2%   [ -27.4,   -0.6]     -17.1%      -6.2%      61
+sin alerta | TOCA ±8 %             2009       40%    -20.0%   [ -22.4,  -17.7]     -20.9%     -18.2%      59
+CON alerta | TP/SL 50 %              66       33%     -9.1%   [ -21.8,   +4.9]     -13.8%      +3.3%      61
+sin alerta | TP/SL 50 %            2009       29%    -17.6%   [ -19.8,  -15.3]     -18.7%     -15.3%      59
+
+==================== ETH ====================
+prueba                              ops    ganad.     medio             IC 95 %    2021-24   2025-hoy      IV
+CON alerta | VENCIMIENTO             78       26%    -24.0%   [ -36.8,  -10.3]     -23.2%     -26.6%      82
+sin alerta | VENCIMIENTO           2009       32%    -11.7%   [ -15.4,   -8.0]     -12.5%      -9.8%      73
+CON alerta | TOCA ±8 %               78       60%     -4.1%   [ -11.1,   +2.7]      -7.2%      +5.5%      82
+sin alerta | TOCA ±8 %             2009       50%    -14.4%   [ -16.2,  -12.5]     -15.0%     -13.2%      73
+CON alerta | TP/SL 50 %              78       36%     -8.4%   [ -19.7,   +3.5]     -10.4%      -2.5%      82
+sin alerta | TP/SL 50 %            2009       34%    -12.0%   [ -14.3,   -9.6]     -12.7%     -10.4%      73
+
+Lectura: la alerta tiene valor si 'CON alerta' gana (medio > 0, IC > 0) y supera claramente a
+'sin alerta' en los dos periodos. Recuerda: es una aproximación con el DVOL a 30 días.

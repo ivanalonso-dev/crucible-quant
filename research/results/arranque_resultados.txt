@@ -1,0 +1,37 @@
+Ejecutado: 2026-09-30 12:35
+
+Arranques tras alerta: 2440  |  sin alerta (referencia): 6806
+Disparo: ±2.5 % desde el precio de la alerta | objetivo: 8 % | stop: vuelta al origen
+
+==================== 2021-2024 ====================
+grupo                                  n  llega 8%    esper.           IC 95 %
+TODOS los arranques (con alerta)    1692     43.3%    -0.12R   [-0.18, -0.07]
+(ref.) todos, SIN alerta            4382     43.0%    -0.07R   [-0.10, -0.03]
+  intensidad: tercio FLOJO           564     40.1%    -0.11R   [-0.22, -0.01]
+  intensidad: tercio FUERTE          564     52.8%    -0.05R   [-0.14, +0.04]
+  volumen: tercio FLOJO              564     42.9%    -0.08R   [-0.18, +0.02]
+  volumen: tercio FUERTE             564     50.0%    -0.06R   [-0.15, +0.04]
+  operaciones: tercio FLOJO          564     42.4%    -0.09R   [-0.18, +0.02]
+  operaciones: tercio FUERTE         564     48.8%    -0.09R   [-0.18, -0.00]
+  velocidad: tercio FLOJO            564     36.5%    -0.19R   [-0.29, -0.09]
+  velocidad: tercio FUERTE           564     53.2%    -0.09R   [-0.18, -0.01]
+  agresividad: tercio FLOJO          564     48.9%    -0.06R   [-0.15, +0.04]
+  agresividad: tercio FUERTE         564     39.4%    -0.17R   [-0.27, -0.07]
+
+==================== 2025-hoy ====================
+grupo                                  n  llega 8%    esper.           IC 95 %
+TODOS los arranques (con alerta)     748     41.7%    -0.10R   [-0.18, -0.01]
+(ref.) todos, SIN alerta            2424     40.5%    -0.09R   [-0.13, -0.04]
+  intensidad: tercio FLOJO           250     40.0%    -0.07R   [-0.23, +0.10]
+  intensidad: tercio FUERTE          269     42.4%    -0.22R   [-0.35, -0.08]
+  volumen: tercio FLOJO              226     42.5%    -0.05R   [-0.22, +0.12]
+  volumen: tercio FUERTE             257     45.5%    -0.11R   [-0.25, +0.03]
+  operaciones: tercio FLOJO          246     42.3%    -0.04R   [-0.20, +0.12]
+  operaciones: tercio FUERTE         247     44.1%    -0.15R   [-0.29, -0.01]
+  velocidad: tercio FLOJO            266     37.2%    -0.09R   [-0.24, +0.07]
+  velocidad: tercio FUERTE           226     47.8%    -0.16R   [-0.30, -0.03]
+  agresividad: tercio FLOJO          198     43.9%    -0.09R   [-0.26, +0.08]
+  agresividad: tercio FUERTE         341     39.6%    -0.12R   [-0.25, +0.01]
+
+LISTÓN: tercio de intensidad FUERTE con esperanza > 0 (IC > 0) y mejor que el FLOJO, en los dos periodos
+VEREDICTO: NO APROBADO

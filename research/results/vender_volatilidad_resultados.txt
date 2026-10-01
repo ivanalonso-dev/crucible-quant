@@ -1,0 +1,39 @@
+Ejecutado: 2026-09-30 12:09
+
+Resultados por operación en % del precio del activo (por 1 BTC/ETH de nominal).
+'peor 5%' = media del 5 % de operaciones más malas. 'x52' = medio x 52 semanas (orientativo).
+
+==================== BTC ====================
+estrategia | filtro                           ops  ganad.    medio          IC 95 %    21-24   25-hoy     peor  peor 5%     x52
+1. Straddle vendido | sin alerta              259     67%   +0.65%  [-0.03, +1.29]   +0.86%   +0.22%    -25.4%   -16.0%     +34%
+1. Straddle vendido | siempre                 287     64%   +0.72%  [+0.08, +1.36]   +0.92%   +0.29%    -25.5%   -15.5%     +37%
+1. Straddle vendido | con alerta               66     64%   +0.64%  [-0.94, +2.05]   +1.29%   -1.09%    -20.1%   -19.4%     +33%
+2. Straddle vendido + stop | sin alerta       259     67%   +0.50%  [-0.19, +1.15]   +0.61%   +0.28%    -35.2%   -14.5%     +26%
+2. Straddle vendido + stop | siempre          287     63%   +0.34%  [-0.37, +1.01]   +0.47%   +0.07%    -48.6%   -15.6%     +18%
+2. Straddle vendido + stop | con alerta        66     61%   -0.37%  [-2.12, +1.27]   +0.03%   -1.45%    -23.8%   -18.4%     -19%
+3. Mariposa de hierro | sin alerta            259     66%   +0.59%  [+0.07, +1.10]   +0.74%   +0.29%    -11.7%    -9.8%     +31%
+3. Mariposa de hierro | siempre               287     62%   +0.65%  [+0.13, +1.14]   +0.80%   +0.32%    -11.7%    -9.7%     +34%
+3. Mariposa de hierro | con alerta             66     62%   +0.65%  [-0.48, +1.78]   +1.20%   -0.81%    -11.8%   -11.0%     +34%
+
+==================== ETH ====================
+estrategia | filtro                           ops  ganad.    medio          IC 95 %    21-24   25-hoy     peor  peor 5%     x52
+1. Straddle vendido | sin alerta              253     62%   +0.50%  [-0.34, +1.32]   +0.52%   +0.46%    -34.1%   -18.9%     +26%
+1. Straddle vendido | siempre                 287     62%   +0.21%  [-0.69, +1.03]   +0.54%   -0.50%    -38.1%   -22.4%     +11%
+1. Straddle vendido | con alerta               78     65%   +1.32%  [-0.20, +2.81]   +1.29%   +1.43%    -19.8%   -18.7%     +69%
+2. Straddle vendido + stop | sin alerta       253     61%   +0.29%  [-0.51, +1.05]   +0.34%   +0.18%    -18.5%   -14.1%     +15%
+2. Straddle vendido + stop | siempre          287     61%   -0.21%  [-1.06, +0.68]   +0.03%   -0.72%    -40.2%   -19.2%     -11%
+2. Straddle vendido + stop | con alerta        78     59%   -0.37%  [-2.19, +1.37]   -0.20%   -0.90%    -25.8%   -19.6%     -19%
+3. Mariposa de hierro | sin alerta            253     57%   +0.37%  [-0.22, +0.99]   +0.19%   +0.75%    -10.2%    -9.2%     +19%
+3. Mariposa de hierro | siempre               287     60%   +0.29%  [-0.29, +0.86]   +0.42%   -0.00%    -10.5%    -9.2%     +15%
+3. Mariposa de hierro | con alerta             78     65%   +0.86%  [-0.22, +1.95]   +0.86%   +0.88%     -9.3%    -8.8%     +45%
+
+==================== CONCLUSIÓN ====================
+1. Vender volatilidad GANA de media: la prima de volatilidad existe (coherente con que comprar opciones perdía).
+   Mejor combinación rentabilidad/riesgo: MARIPOSA DE HIERRO en BTC (+0,6 % del nominal por semana,
+   IC por encima de 0, peor semana -11,7 %).
+2. La alerta NO sirve como filtro: vender "sin alerta" da lo mismo que vender "siempre", y "con alerta"
+   incluso gana algo más en ETH. El mercado ya sube el precio de las opciones cuando llega la volatilidad.
+3. El stop no protege: en los peores casos el precio salta de golpe y la recompra sale igual de cara.
+4. AVISO IMPORTANTE: la aproximación FAVORECE al vendedor (usa el DVOL a 30 días para opciones a 7 días
+   y no incluye el "skew": las protecciones reales cuestan más). Los resultados reales serán peores.
+   Antes de arriesgar dinero: prueba en papel con precios REALES de Deribit durante 8-12 semanas.

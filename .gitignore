@@ -1,0 +1,26 @@
+# --- secrets & private parameters (NEVER publish) ---
+parametros.py
+config_telegram.json
+*.key
+*.pem
+servidor/*.key
+
+# --- user data & live logs ---
+suscriptores.db
+registro_alertas.csv
+registro_oi*.csv
+ultimo_resumen.txt
+resumen_semanal.png
+*_log.txt
+monitor_log.txt
+
+# --- local data / generated ---
+cache/
+__pycache__/
+*.pkl
+*_operaciones.csv
+*_curva.csv
+flujos_cex_4h.csv
+senales_*.json
+.venv/
+venv/
