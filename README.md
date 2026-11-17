@@ -176,6 +176,6 @@ bash servidor/instalar.sh
 **Ivan Alonso** · Barcelona, Spain
 Data science and blockchain. Founder of BCSentinel AI, an on-chain intelligence platform for Ethereum.
 
-[GitHub](https://github.com/ivanalonso-dev) · [X / Crucible Quant](https://x.com/cruciblequant) · ivanalonso.dev@gmail.com
+[GitHub](https://github.com/ivanalonso-dev) · [LinkedIn](https://www.linkedin.com/in/ivanalonsodev) · [X](https://x.com/ivanalonsodev) · [X / Crucible Quant](https://x.com/cruciblequant) · ivanalonso.dev@gmail.com
 
 <sub>Code comments and variable names are in Spanish; documentation is in English.</sub>
